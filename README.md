@@ -5,15 +5,26 @@
 
 ## What?
 
-A description off a Google Assistant script which I use to cast things to my
-Chromecast from Home Assistant.
+A janky setup to run any Google Assistant command from the command line.
 
 ## Why?
 
-The official Google Assistant API doesn't support all commands, stuff like
-"play *show* from *service* on *tv*" does not work. If you **really** want to
-automate commands like that, you can try this really janky solution. I wouldn't
-recommend it though. YMMV.
+The official Google Assistant API doesn't support all commands, e.g. starting a
+netflix show on a chromecast. If you **really** want to automate commands like
+that, you can try this setup. I wouldn't recommend it though. YMMV!
+
+Example triggers:
+
+- Run Google Assistant commands from your command line (probably over ssh).
+- Use Home Assistant (Shell Command) to run Google Assistant commands.
+- Use IFTTT (Webhooks) to run Google Assistant commands.
+
+Example commands:
+
+- Start Youtube, Netflix, Disney+ etc show on a Chromecast.
+- Start music from Spotify on a nest speaker.
+- Turn off/on lights.
+- Start music on Sonos speakers.
 
 ## How?
 
@@ -83,8 +94,8 @@ instead of regular commands can be helpful since it allows you to edit which
 command is executed from your assistant settings.
 
 Shortcuts to routines can also be added to the home screen, editing
-`assistant.py` to launch a shortcut might be reliable than typing text into the
-assistant app.
+`assistant.py` to launch a shortcut might be more reliable than typing text
+into the assistant app.
 
 ## Help! It's not working
 
