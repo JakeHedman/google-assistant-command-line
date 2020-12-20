@@ -5,7 +5,17 @@
 
 ## What?
 
-A janky setup to run any Google Assistant command from the command line.
+A dirty setup to trigger any Google Assistant command from the command line.
+
+- Short commands are usually submitted within ~250ms on my machine.
+- The response it not captured, so you won't be able to get answers for
+  questions or an error description if something goes wrong.
+- Requires a virtual android device to be running (or a spare phone I guess).
+
+
+## Demo
+
+![Demo](demo.gif?raw=true "Demo")
 
 ## Why?
 
@@ -36,10 +46,6 @@ Example commands:
 > *Thanks, I hate it.*
 >
 > – Everyone
-
-## Demo
-
-![Demo](demo.gif?raw=true "Demo")
 
 ## Instructions
 
@@ -72,7 +78,7 @@ Preferred input`, choose Keyboard.
 I installed and changed my default launcher to [Null
 Launcher](https://play.google.com/store/apps/details?id=com.notriddle.null_launcer&hl=en&gl=US)
 to avoid wasting performance on running some fancy launcher. I'm not sure if it
-makes a difference.
+makes any difference.
 
 ### Run script
 
